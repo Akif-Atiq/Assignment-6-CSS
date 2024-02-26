@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 40px;
+    color: #333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #151414;
+    text-decoration: none;
+    padding: 8px 20px;
+
+}
+
+nav a span{
+    font-weight: 800;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    /* padding: 15px; */
+}
+
+nav ul li {
+    padding: 8px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+ .Ak-hero{
+    height: 1200px;
+    width: 1300px;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.Ak7{
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+}
+
+.Ak7 span{
+    background: #333;
+    padding: 5px 9px;
+    position: relative;
+}
+
+.Ak7 h1{
+    color: antiquewhite;
+    padding: 240px;
+    font-weight: 400;
+}
+
+/*projects*/
+
+.projects h3{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.projects .house {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 9px;
+}
+
+.projects .house .item {
+    height: 180px;
+    width: 245px;
+    /* padding: 10px; */
+    padding-bottom: 5px;
+}
+
+.projects .house .image .blk-bx {
+    background: #000;
+    height: 15px;
+    color: #fff;
+    width: 55px;
+    /* z-index: 100; */
+}
+
+#Ak1 {
+    background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+}
+
+#Ak2 {
+    background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+}
+
+#Ak3 {
+    background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+}
+
+#Ak4 {
+    background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+}
+
+#Ak5 {
+    background-image: url(https://img.freepik.com/premium-photo/beach-house-with-thatched-roof-is-surrounded-by-mountains_931553-4133.jpg);
+}
+
+#Ak6 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBysNZS2WHU_cDZRFePx5kKdMLJ-Whsi0Xsw&usqp=CAU);
+}
+
+#Ak7 {
+    background-image: url(https://c1.wallpaperflare.com/preview/139/727/688/new-home-construction-site-house.jpg);
+
+}
+
+#Ak8 {
+    background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+}
+
+
+.item {
+    height: 180px;
+    width: 250px;
+    background: yellowgreen;
+    /* background-image: url(assets/images/house5.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+
+.AA p{
+    background: #000;
+    color: #fff;
+    width: 100px;
+    font-size: 11px;
+    height: 30px;
+    padding: 6px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/*About*/
+
+.about .about-heading {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.about .about-para {
+    padding-top: 35px;
+}
+
+.Ateams {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    gap: 9px;
+}
+
+.about .Ateams {
+    width: 150px;
+}
+
+.about .Ateams img {
+    height: 55px;
+    width: 55px;
+    margin: 0px,0px,16px;
+    padding:0px,8px;
+    justify-content: center;
+}
+
+
+.about .Ateams .team h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about .Ateams .team span {
+    color: #333;
+    font-size: 14px;
+}
+
+.about .Ateams .team p {
+    color: #333;
+    margin-top: 10px;
+    font-size: 13px;
+
+}
+
+.about .Ateams .team button {
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    padding: 5px 0;
+    color: #333;
+    background: rgb(229, 237, 237);
+    cursor: pointer;
+    border: none;
+}
+
+.contact .contact-heading {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.contact .contact-para {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.contact input {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    border: 1px solid gray;
+
+}
+
+.contact button {
+    margin: 25px 0;
+    padding: 5px 16px;
+    background: #333;
+    color: rgb(230, 238, 238);
+    border: none;
+    cursor: pointer;
+}
+
+.contact img {
+    max-width: 100%;
+}
+
+
+
+footer {
+    height: 50px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    padding: 15px;
+    font-size: 12px;
+}
